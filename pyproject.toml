@@ -1,5 +1,5 @@
 [project]
-name = "quinn"
+name = "kaggle-titanic"
 version = "0.1.0"
 description = "AI-powered email rubber duck for guided problem-solving"
 requires-python = ">=3.13"
@@ -26,10 +26,10 @@ dependencies = [
 ]
 
 [project.scripts]
-quinn = "quinn.cli:main"
+kaggle-titanic = "kaggle_titanic.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["quinn*"]
+include = ["kaggle_titanic*"]
 exclude = ["llms*"]
 
 [tool.uv]
@@ -96,7 +96,7 @@ extend-ignore = [
 max-complexity = 5
 
 [tool.pytest.ini_options]
-testpaths = ["quinn", "tests"]
+testpaths = ["kaggle_titanic", "tests"]
 python_files = ["*_test.py"]
 addopts = "-vv --tb=short"
 asyncio_mode = "auto"
