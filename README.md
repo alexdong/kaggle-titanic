@@ -1,4 +1,4 @@
-# python-template
+# kaggle-titanic
 
 A modern Python project template with comprehensive tooling and documentation ready for GitHub Pages hosting.
 
@@ -18,7 +18,7 @@ The `docs/` folder contains comprehensive documentation that can be hosted direc
 3. Choose "main" branch and "/docs" folder
 4. Click Save
 
-Your documentation will be available at: `https://[username].github.io/[repository-name]/`
+Your documentation will be available at: `https://[username].github.io/kaggle-titanic/`
 
 ## Project Structure
 

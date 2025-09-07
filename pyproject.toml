@@ -17,6 +17,7 @@ dependencies = [
     "plotly>=5.0.0",
     "streamlit>=1.0.0",
     "pytest-asyncio>=1.0.0",
+    "kaggle>=1.7.4.5",
 ]
 
 [project.scripts]

@@ -1,17 +1,17 @@
 # GitHub Pages Configuration
-title: Python Template Documentation
-description: A modern Python project template with comprehensive tooling and documentation
+title: Kaggle Titanic Documentation
+description: A modern Python project for the Kaggle Titanic competition with comprehensive tooling and documentation
 theme: jekyll-theme-minimal
 
 # Optional: Custom domain
 # url: "https://yourdomain.com"
-# baseurl: "/python-template"
+# baseurl: "/kaggle-titanic"
 
 # Navigation
 navigation:
   - title: Home
     url: /
   - title: GitHub
-    url: https://github.com/username/python-template
+    url: https://github.com/username/kaggle-titanic
   - title: Issues
-    url: https://github.com/username/python-template/issues
+    url: https://github.com/username/kaggle-titanic/issues
